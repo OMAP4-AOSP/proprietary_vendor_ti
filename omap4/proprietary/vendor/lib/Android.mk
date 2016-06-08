@@ -13,7 +13,7 @@ endif
 ifeq ($(ANDROID_API_LP_OR_LATER),true)
 CAN_STRIP := true
 else
-CAN_STRIP :=false
+CAN_STRIP := false
 endif
 
 include $(CLEAR_VARS)
